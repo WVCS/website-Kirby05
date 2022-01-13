@@ -1,4 +1,46 @@
 body {
-background-color: ba181b;
-  
+  background-color: #444444;
+}
+
+h1 {
+  color: #000000;
+  background-color: #FFFFFF;
+  font-size: 70px;
+  letter-spacing: 2px;
+  text-align: center;
+  text-shadow: 2px 2px #ffffff;
+}
+
+p {
+  font-size: 35px;
+}
+
+img {
+  width: 50%;
+}
+
+nav {
+  list-style-type: none;
+  background-color: #212121;
+  width: 100%;
+  left: 0;
+  top: 0;
+  overflow: hidden;
+  position: fixed;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #ffffff;
+  text-shadow: 1px 1px #000000;
+  textdecoration: none;
+  padding: 14px 50px;
+}
+
+li a:hover; {
+  background-color; #000000
 }
